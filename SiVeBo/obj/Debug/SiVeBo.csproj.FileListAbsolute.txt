@@ -1,0 +1,71 @@
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe.config
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.pdb
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csprojAssemblyReference.cache
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Login.resources
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Properties.Resources.resources
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.GenerateResource.cache
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.CoreCompileInputs.cache
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.exe
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.pdb
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.CopyComplete
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Menu.resources
+C:\Users\Luis Angel VM\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Venta.resources
+I:\SWB\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe.config
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.exe
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.pdb
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Login.resources
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Menu.resources
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Properties.Resources.resources
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Venta.resources
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.GenerateResource.Cache
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.ControlUsuarios.resources
+I:\SWB\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe
+I:\SWB\SiVeBo\SiVeBo\bin\Debug\SiVeBo.pdb
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.DataGrid.resources
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csprojResolveAssemblyReference.cache
+I:\SWB\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Reporte.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe.config
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.pdb
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csprojResolveAssemblyReference.cache
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.ControlUsuarios.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.DataGrid.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Login.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Menu.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Properties.Resources.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Reporte.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Venta.resources
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.GenerateResource.Cache
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.CoreCompileInputs.cache
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.exe
+C:\Users\ganst\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.pdb
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe.config
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.exe
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.pdb
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.exe
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\bin\Debug\SiVeBo.pdb
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csprojResolveAssemblyReference.cache
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.ControlUsuarios.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.DataGrid.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Login.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Menu.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Properties.Resources.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Reporte.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.Venta.resources
+C:\Users\ISABEL\Desktop\SiVeBo\SiVeBo\obj\Debug\SiVeBo.csproj.GenerateResource.Cache
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\bin\Debug\SiVeBo.exe.config
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.exe
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.pdb
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\bin\Debug\SiVeBo.exe
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\bin\Debug\SiVeBo.pdb
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.csprojResolveAssemblyReference.cache
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.ControlUsuarios.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.DataGrid.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.Login.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.Menu.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.Properties.Resources.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.Reporte.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.Venta.resources
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.csproj.GenerateResource.Cache
+C:\Repositorios\GiilGuerrero\SiVeBo-UASLP\SiVeBo\obj\Debug\SiVeBo.Menu2.resources
