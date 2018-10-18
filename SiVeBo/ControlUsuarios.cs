@@ -44,7 +44,7 @@ namespace SiVeBo
             this.cambioMenu();
 
             dataGridView1.Visible = false;
-            LlenarTablaAuxiliar();
+            //LlenarTablaAuxiliar();
         }
 
         /*  Evento: button1_Click (Click registro)

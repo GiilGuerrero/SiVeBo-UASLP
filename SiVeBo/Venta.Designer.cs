@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pbBus = new System.Windows.Forms.PictureBox();
             this.GBAsientos = new System.Windows.Forms.GroupBox();
             this.button42 = new System.Windows.Forms.Button();
@@ -76,7 +77,16 @@
             this.B3 = new System.Windows.Forms.Button();
             this.B2 = new System.Windows.Forms.Button();
             this.B1 = new System.Windows.Forms.Button();
+            this.videoSourcePlayer1 = new AForge.Controls.VideoSourcePlayer();
             this.tbOrigen = new System.Windows.Forms.TextBox();
+            this.tbDestino = new System.Windows.Forms.TextBox();
+            this.btnGeneraQR = new System.Windows.Forms.Button();
+            this.tbDatosQR = new System.Windows.Forms.TextBox();
+            this.panelQR = new System.Windows.Forms.Panel();
+            this.cbDispositivos = new System.Windows.Forms.ComboBox();
+            this.lblResultadoQR = new System.Windows.Forms.Label();
+            this.btnScanQR = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbBus)).BeginInit();
             this.GBAsientos.SuspendLayout();
             this.SuspendLayout();
@@ -702,6 +712,15 @@
             this.B1.Text = "1";
             this.B1.UseVisualStyleBackColor = false;
             // 
+            // videoSourcePlayer1
+            // 
+            this.videoSourcePlayer1.Location = new System.Drawing.Point(393, 366);
+            this.videoSourcePlayer1.Name = "videoSourcePlayer1";
+            this.videoSourcePlayer1.Size = new System.Drawing.Size(200, 200);
+            this.videoSourcePlayer1.TabIndex = 4;
+            this.videoSourcePlayer1.Text = "videoSourcePlayer1";
+            this.videoSourcePlayer1.VideoSource = null;
+            // 
             // tbOrigen
             // 
             this.tbOrigen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
@@ -710,7 +729,74 @@
             this.tbOrigen.Name = "tbOrigen";
             this.tbOrigen.Size = new System.Drawing.Size(236, 20);
             this.tbOrigen.TabIndex = 2;
-            this.tbOrigen.TextChanged += new System.EventHandler(this.tbOrigen_TextChanged);
+            // 
+            // tbDestino
+            // 
+            this.tbDestino.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.tbDestino.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.tbDestino.Location = new System.Drawing.Point(357, 62);
+            this.tbDestino.Name = "tbDestino";
+            this.tbDestino.Size = new System.Drawing.Size(236, 20);
+            this.tbDestino.TabIndex = 3;
+            // 
+            // btnGeneraQR
+            // 
+            this.btnGeneraQR.ForeColor = System.Drawing.Color.Black;
+            this.btnGeneraQR.Location = new System.Drawing.Point(97, 598);
+            this.btnGeneraQR.Name = "btnGeneraQR";
+            this.btnGeneraQR.Size = new System.Drawing.Size(80, 80);
+            this.btnGeneraQR.TabIndex = 4;
+            this.btnGeneraQR.Text = "QR CODE";
+            this.btnGeneraQR.UseVisualStyleBackColor = true;
+            this.btnGeneraQR.Click += new System.EventHandler(this.btnGeneraQR_Click);
+            // 
+            // tbDatosQR
+            // 
+            this.tbDatosQR.Location = new System.Drawing.Point(37, 572);
+            this.tbDatosQR.Name = "tbDatosQR";
+            this.tbDatosQR.Size = new System.Drawing.Size(200, 20);
+            this.tbDatosQR.TabIndex = 5;
+            // 
+            // panelQR
+            // 
+            this.panelQR.Location = new System.Drawing.Point(37, 366);
+            this.panelQR.Name = "panelQR";
+            this.panelQR.Size = new System.Drawing.Size(200, 200);
+            this.panelQR.TabIndex = 6;
+            // 
+            // cbDispositivos
+            // 
+            this.cbDispositivos.FormattingEnabled = true;
+            this.cbDispositivos.Location = new System.Drawing.Point(393, 572);
+            this.cbDispositivos.Name = "cbDispositivos";
+            this.cbDispositivos.Size = new System.Drawing.Size(200, 21);
+            this.cbDispositivos.TabIndex = 7;
+            // 
+            // lblResultadoQR
+            // 
+            this.lblResultadoQR.AutoSize = true;
+            this.lblResultadoQR.Font = new System.Drawing.Font("Elephant", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoQR.ForeColor = System.Drawing.Color.Black;
+            this.lblResultadoQR.Location = new System.Drawing.Point(319, 250);
+            this.lblResultadoQR.Name = "lblResultadoQR";
+            this.lblResultadoQR.Size = new System.Drawing.Size(221, 35);
+            this.lblResultadoQR.TabIndex = 8;
+            this.lblResultadoQR.Text = "Resultado QR";
+            // 
+            // btnScanQR
+            // 
+            this.btnScanQR.ForeColor = System.Drawing.Color.Black;
+            this.btnScanQR.Location = new System.Drawing.Point(460, 599);
+            this.btnScanQR.Name = "btnScanQR";
+            this.btnScanQR.Size = new System.Drawing.Size(80, 80);
+            this.btnScanQR.TabIndex = 9;
+            this.btnScanQR.Text = "SCAN";
+            this.btnScanQR.UseVisualStyleBackColor = true;
+            this.btnScanQR.Click += new System.EventHandler(this.btnScanQR_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Venta
             // 
@@ -718,6 +804,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1154, 770);
+            this.Controls.Add(this.btnScanQR);
+            this.Controls.Add(this.lblResultadoQR);
+            this.Controls.Add(this.cbDispositivos);
+            this.Controls.Add(this.panelQR);
+            this.Controls.Add(this.videoSourcePlayer1);
+            this.Controls.Add(this.tbDatosQR);
+            this.Controls.Add(this.btnGeneraQR);
+            this.Controls.Add(this.tbDestino);
             this.Controls.Add(this.tbOrigen);
             this.Controls.Add(this.GBAsientos);
             this.ForeColor = System.Drawing.Color.Transparent;
@@ -785,5 +879,14 @@
         private System.Windows.Forms.Button B4;
         private System.Windows.Forms.Button B3;
         private System.Windows.Forms.TextBox tbOrigen;
+        private System.Windows.Forms.TextBox tbDestino;
+        private AForge.Controls.VideoSourcePlayer videoSourcePlayer1;
+        private System.Windows.Forms.Button btnGeneraQR;
+        private System.Windows.Forms.TextBox tbDatosQR;
+        private System.Windows.Forms.Panel panelQR;
+        private System.Windows.Forms.ComboBox cbDispositivos;
+        private System.Windows.Forms.Label lblResultadoQR;
+        private System.Windows.Forms.Button btnScanQR;
+        private System.Windows.Forms.Timer timer1;
     }
 }

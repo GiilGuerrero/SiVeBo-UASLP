@@ -21,9 +21,10 @@ namespace SiVeBo
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-            ControlUsuarios CtrlUsrVentana = new ControlUsuarios(conexionBD);
-            CtrlUsrVentana.ShowDialog(this);//Cambia al form 'Control Usuarios'
-            this.Show();
+            ResaltaSeleccion(3);
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
+            AbrirFormPanel(new ControlUsuarios(conexionBD));
         }
 
         private void btnBoletos_Click(object sender, EventArgs e)
@@ -31,13 +32,23 @@ namespace SiVeBo
             ResaltaSeleccion(1);
             int anchoPanel = panelContenedor.Width;
             int anchOpciones = Opciones.Width;
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
             AbrirFormPanel(new Venta(conexionBD, anchoPanel, anchOpciones));
         }
 
-        private void btnUsuarios_Click_1(object sender, EventArgs e)
+        private void btnHorarios_Click(object sender, EventArgs e)
         {
-            ResaltaSeleccion(3);
-            AbrirFormPanel(new ControlUsuarios(conexionBD));
+            ResaltaSeleccion(2);
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            ResaltaSeleccion(4);
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
         }
 
         private void Menu2_Load(object sender, EventArgs e)
@@ -57,20 +68,6 @@ namespace SiVeBo
             this.panelContenedor.Controls.Add(FP);
             this.panelContenedor.Tag = FP;
             FP.Show();
-        }
-
-        private void btnHorarios_Click(object sender, EventArgs e)
-        {
-            ResaltaSeleccion(2);
-            if (this.panelContenedor.Controls.Count > 0)
-                this.panelContenedor.Controls.RemoveAt(0);
-        }
-
-        private void btnReportes_Click(object sender, EventArgs e)
-        {
-            ResaltaSeleccion(4);
-            if (this.panelContenedor.Controls.Count > 0)
-                this.panelContenedor.Controls.RemoveAt(0);
         }
 
         private void ResaltaSeleccion(int seleccion)
@@ -101,14 +98,9 @@ namespace SiVeBo
 
         }
 
-        private void btnCerrarApp_MouseHover(object sender, EventArgs e)
+        private void btnCerrarApp_Click(object sender, EventArgs e)
         {
-            btnCerrarApp.Image = Properties.Resources.closeApp2;
-        }
-
-        private void btnCerrarApp_MouseLeave(object sender, EventArgs e)
-        {
-            btnCerrarApp.Image = Properties.Resources.closeApp;
+            Application.Exit();
         }
     }
 }
