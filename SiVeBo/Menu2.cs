@@ -13,10 +13,12 @@ namespace SiVeBo
     public partial class Menu2 : Form
     {
         DBconnection conexionBD;
+        int idUsuario=0;
         public Menu2(DBconnection conexionBD, Usuario user)
         {
             InitializeComponent();
             this.conexionBD = conexionBD;
+            idUsuario = user.idUsuario;
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
@@ -34,7 +36,7 @@ namespace SiVeBo
             int anchOpciones = Opciones.Width;
             if (this.panelContenedor.Controls.Count > 0)
                 this.panelContenedor.Controls.RemoveAt(0);
-            AbrirFormPanel(new Venta(conexionBD, anchoPanel, anchOpciones));
+            AbrirFormPanel(new Venta(conexionBD, anchoPanel, anchOpciones,idUsuario));
         }
 
         private void btnHorarios_Click(object sender, EventArgs e)
@@ -54,6 +56,8 @@ namespace SiVeBo
         private void Menu2_Load(object sender, EventArgs e)
         {
             panelContenedor.Location = new Point(Opciones.Width,0);
+            btnCerrarApp.Location = new Point(0,this.Height-btnCerrarApp.Height);
+            btnLogOut.Location = new Point(Opciones.Width-btnLogOut.Width, this.Height-btnLogOut.Height);
             panelContenedor.Width = this.Width - Opciones.Width;
             panelContenedor.Height = this.Height; ;
         }

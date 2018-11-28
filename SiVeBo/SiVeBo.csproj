@@ -249,5 +249,83 @@
   <ItemGroup>
     <None Include="Resources\closeApp2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\couple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\couple1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandparents %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticketBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webCam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webcam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NE2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\couple2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grandparents %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webCam %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-symbol1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-with-a-clock-time-tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat %281%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

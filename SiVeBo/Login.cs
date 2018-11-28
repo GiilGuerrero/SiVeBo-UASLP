@@ -20,8 +20,12 @@ namespace SiVeBo
         public Login()
         {
             InitializeComponent();
-            panelLogin.Location = new Point(600, 200);
             IniciarConexion();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            panelLogin.Location = new Point(this.Width/2 - panelLogin.Width/2, this.Height/2 - panelLogin.Height/2);
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
@@ -51,6 +55,7 @@ namespace SiVeBo
                         if (reader.GetString("contrasena").Equals(contraseña))
                         {
                             Usuario user = new Usuario();
+                            user.idUsuario = reader.GetInt32("idUsuario");
                             user.nombreUsusario = usuario;
                             user.contraseña = reader.GetString("contrasena");
                             user.permisos = reader.GetInt32("permisos");
@@ -99,10 +104,31 @@ namespace SiVeBo
             }
         }
 
+        #region Métodos para loggearse con la tecla 'Enter'
+
+        /// <summary>
+        /// Activa el evento ingresarSistema() al presionar la tecla enter estando el 'focus' en el textbox del usuario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tbUser_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((int)e.KeyChar == (int)Keys.Enter)
+                ingresarSistema();
+        }
+
+        /// <summary>
+        /// Activa el evento ingresarSistema() al presionar la tecla enter estando el 'focus' en el textbox de la contraseña.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void tbPass_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((int)e.KeyChar == (int)Keys.Enter)
                 ingresarSistema();
         }
+
+        #endregion
+
     }
 }

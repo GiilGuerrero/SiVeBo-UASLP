@@ -23,7 +23,7 @@ namespace SiVeBo
 
         private void btnVentaBoletos_Click(object sender, EventArgs e)
         {
-            Venta ventaVentana = new Venta(conexionBD,0,0);
+            Venta ventaVentana = new Venta(conexionBD,0,0,0);
             this.Hide();
             ventaVentana.ShowDialog(this);//Cambia al form 'Menu'
             this.Show();

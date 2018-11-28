@@ -12,6 +12,8 @@ namespace SiVeBo
         public string nombreUsusario { get; set; }
         public string contraseña { get; set; }
         public int permisos { get; set; }
+
+        public int idUsuario { get; set; }
         private MySqlDataReader reader;
 
         MySqlDataAdapter DA;

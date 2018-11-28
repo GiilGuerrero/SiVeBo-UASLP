@@ -31,52 +31,33 @@
             this.components = new System.ComponentModel.Container();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.btnBoletos = new System.Windows.Forms.Button();
             this.Opciones = new System.Windows.Forms.Panel();
-            this.btnCerrarApp = new System.Windows.Forms.Button();
-            this.btnLogOut = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnReportes = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.btnHorarios = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnCerrarApp = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.btnHorarios = new System.Windows.Forms.Button();
             this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.btnBoletos = new System.Windows.Forms.Button();
             this.Opciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelContenedor
             // 
+            this.panelContenedor.AccessibleRole = System.Windows.Forms.AccessibleRole.Sound;
             this.panelContenedor.AutoSize = true;
+            this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
             this.panelContenedor.Location = new System.Drawing.Point(219, 0);
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(906, 649);
             this.panelContenedor.TabIndex = 1;
-            this.toolTip1.SetToolTip(this.panelContenedor, "Cerrar Sesión");
-            // 
-            // btnBoletos
-            // 
-            this.btnBoletos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnBoletos.FlatAppearance.BorderSize = 0;
-            this.btnBoletos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnBoletos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBoletos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBoletos.ForeColor = System.Drawing.Color.White;
-            this.btnBoletos.Image = global::SiVeBo.Properties.Resources.iconoVenta;
-            this.btnBoletos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBoletos.Location = new System.Drawing.Point(10, 143);
-            this.btnBoletos.Name = "btnBoletos";
-            this.btnBoletos.Size = new System.Drawing.Size(210, 45);
-            this.btnBoletos.TabIndex = 0;
-            this.btnBoletos.Text = "Boletos";
-            this.btnBoletos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.toolTip1.SetToolTip(this.btnBoletos, "Venta/Reservade boletos.");
-            this.btnBoletos.UseVisualStyleBackColor = false;
-            this.btnBoletos.Click += new System.EventHandler(this.btnBoletos_Click);
             // 
             // Opciones
             // 
@@ -100,6 +81,74 @@
             this.Opciones.Size = new System.Drawing.Size(220, 649);
             this.Opciones.TabIndex = 0;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Red;
+            this.panel4.Location = new System.Drawing.Point(0, 336);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 45);
+            this.panel4.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Red;
+            this.panel3.Location = new System.Drawing.Point(0, 207);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 45);
+            this.panel3.TabIndex = 6;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Red;
+            this.panel2.Location = new System.Drawing.Point(0, 271);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(10, 45);
+            this.panel2.TabIndex = 4;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(10, 241);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(0, 0);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Boletos";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Location = new System.Drawing.Point(0, 143);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(10, 45);
+            this.panel1.TabIndex = 2;
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnUsuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnUsuarios.FlatAppearance.BorderSize = 0;
+            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios.ForeColor = System.Drawing.Color.White;
+            this.btnUsuarios.Image = global::SiVeBo.Properties.Resources.usuariosIcono;
+            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsuarios.Location = new System.Drawing.Point(10, 271);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(210, 45);
+            this.btnUsuarios.TabIndex = 3;
+            this.btnUsuarios.Text = "Control de usuarios";
+            this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
             // btnCerrarApp
             // 
             this.btnCerrarApp.BackColor = System.Drawing.Color.Transparent;
@@ -110,6 +159,7 @@
             this.btnCerrarApp.Name = "btnCerrarApp";
             this.btnCerrarApp.Size = new System.Drawing.Size(40, 40);
             this.btnCerrarApp.TabIndex = 13;
+            this.toolTip1.SetToolTip(this.btnCerrarApp, "Cerrar Sistema");
             this.btnCerrarApp.UseVisualStyleBackColor = false;
             this.btnCerrarApp.Click += new System.EventHandler(this.btnCerrarApp_Click);
             // 
@@ -124,16 +174,9 @@
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(40, 40);
             this.btnLogOut.TabIndex = 12;
+            this.toolTip1.SetToolTip(this.btnLogOut, "Cerrar Sesión");
             this.btnLogOut.UseVisualStyleBackColor = false;
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Red;
-            this.panel4.Location = new System.Drawing.Point(0, 336);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 45);
-            this.panel4.TabIndex = 11;
             // 
             // btnReportes
             // 
@@ -153,14 +196,6 @@
             this.btnReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReportes.UseVisualStyleBackColor = false;
             this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Red;
-            this.panel3.Location = new System.Drawing.Point(0, 207);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 45);
-            this.panel3.TabIndex = 6;
             // 
             // button8
             // 
@@ -198,58 +233,6 @@
             this.btnHorarios.UseVisualStyleBackColor = false;
             this.btnHorarios.Click += new System.EventHandler(this.btnHorarios_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Red;
-            this.panel2.Location = new System.Drawing.Point(0, 271);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 45);
-            this.panel2.TabIndex = 4;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::SiVeBo.Properties.Resources.iconoVenta;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(10, 241);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(0, 0);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Boletos";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.Location = new System.Drawing.Point(0, 143);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(10, 45);
-            this.panel1.TabIndex = 2;
-            // 
-            // btnUsuarios
-            // 
-            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnUsuarios.FlatAppearance.BorderSize = 0;
-            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsuarios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnUsuarios.Image = global::SiVeBo.Properties.Resources.usuariosIcono;
-            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuarios.Location = new System.Drawing.Point(10, 271);
-            this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(210, 45);
-            this.btnUsuarios.TabIndex = 3;
-            this.btnUsuarios.Text = "Control de usuarios";
-            this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnUsuarios.UseVisualStyleBackColor = false;
-            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
-            // 
             // pbLogo
             // 
             this.pbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -260,6 +243,26 @@
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
+            // 
+            // btnBoletos
+            // 
+            this.btnBoletos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnBoletos.FlatAppearance.BorderSize = 0;
+            this.btnBoletos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnBoletos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBoletos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBoletos.ForeColor = System.Drawing.Color.White;
+            this.btnBoletos.Image = global::SiVeBo.Properties.Resources.iconoVenta;
+            this.btnBoletos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBoletos.Location = new System.Drawing.Point(10, 143);
+            this.btnBoletos.Name = "btnBoletos";
+            this.btnBoletos.Size = new System.Drawing.Size(210, 45);
+            this.btnBoletos.TabIndex = 0;
+            this.btnBoletos.Text = "Boletos";
+            this.btnBoletos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.toolTip1.SetToolTip(this.btnBoletos, "Venta/Reservade boletos.");
+            this.btnBoletos.UseVisualStyleBackColor = false;
+            this.btnBoletos.Click += new System.EventHandler(this.btnBoletos_Click);
             // 
             // Menu2
             // 
