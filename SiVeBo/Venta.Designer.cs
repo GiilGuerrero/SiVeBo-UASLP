@@ -142,7 +142,7 @@
             // 
             // panelQR
             // 
-            this.panelQR.Location = new System.Drawing.Point(351, 5);
+            this.panelQR.Location = new System.Drawing.Point(355, 6);
             this.panelQR.Name = "panelQR";
             this.panelQR.Size = new System.Drawing.Size(185, 185);
             this.panelQR.TabIndex = 6;
@@ -150,7 +150,7 @@
             // cbDispositivos
             // 
             this.cbDispositivos.FormattingEnabled = true;
-            this.cbDispositivos.Location = new System.Drawing.Point(593, 607);
+            this.cbDispositivos.Location = new System.Drawing.Point(618, 482);
             this.cbDispositivos.Name = "cbDispositivos";
             this.cbDispositivos.Size = new System.Drawing.Size(227, 21);
             this.cbDispositivos.TabIndex = 7;
@@ -163,31 +163,31 @@
             // 
             this.cbOrigen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbOrigen.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.cbOrigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbOrigen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbOrigen.FormattingEnabled = true;
-            this.cbOrigen.Location = new System.Drawing.Point(24, 58);
+            this.cbOrigen.Location = new System.Drawing.Point(49, 30);
             this.cbOrigen.Name = "cbOrigen";
-            this.cbOrigen.Size = new System.Drawing.Size(370, 33);
+            this.cbOrigen.Size = new System.Drawing.Size(260, 28);
             this.cbOrigen.TabIndex = 10;
             // 
             // cbDestino
             // 
             this.cbDestino.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbDestino.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.cbDestino.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbDestino.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbDestino.FormattingEnabled = true;
-            this.cbDestino.Location = new System.Drawing.Point(447, 58);
+            this.cbDestino.Location = new System.Drawing.Point(352, 30);
             this.cbDestino.Name = "cbDestino";
-            this.cbDestino.Size = new System.Drawing.Size(373, 33);
+            this.cbDestino.Size = new System.Drawing.Size(260, 28);
             this.cbDestino.TabIndex = 11;
             // 
             // cbHorario
             // 
-            this.cbHorario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbHorario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbHorario.FormattingEnabled = true;
-            this.cbHorario.Location = new System.Drawing.Point(191, 135);
+            this.cbHorario.Location = new System.Drawing.Point(346, 93);
             this.cbHorario.Name = "cbHorario";
-            this.cbHorario.Size = new System.Drawing.Size(203, 33);
+            this.cbHorario.Size = new System.Drawing.Size(262, 28);
             this.cbHorario.TabIndex = 12;
             // 
             // label1
@@ -196,7 +196,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Gold;
-            this.label1.Location = new System.Drawing.Point(447, 30);
+            this.label1.Location = new System.Drawing.Point(347, -3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 25);
             this.label1.TabIndex = 14;
@@ -208,7 +208,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gold;
-            this.label2.Location = new System.Drawing.Point(23, 29);
+            this.label2.Location = new System.Drawing.Point(44, -3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 25);
             this.label2.TabIndex = 15;
@@ -220,7 +220,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gold;
-            this.label3.Location = new System.Drawing.Point(188, 107);
+            this.label3.Location = new System.Drawing.Point(343, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 25);
             this.label3.TabIndex = 16;
@@ -233,16 +233,16 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btnBoletosMas);
             this.panel1.Controls.Add(this.btnBoletoMenos);
-            this.panel1.Location = new System.Drawing.Point(28, 196);
+            this.panel1.Location = new System.Drawing.Point(49, 146);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(235, 135);
+            this.panel1.Size = new System.Drawing.Size(175, 135);
             this.panel1.TabIndex = 17;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(75, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(41, 45);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(84, 48);
             this.pictureBox1.TabIndex = 18;
@@ -254,7 +254,7 @@
             this.tbBoletosNiñoEst.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbBoletosNiñoEst.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbBoletosNiñoEst.ForeColor = System.Drawing.Color.White;
-            this.tbBoletosNiñoEst.Location = new System.Drawing.Point(100, 106);
+            this.tbBoletosNiñoEst.Location = new System.Drawing.Point(66, 106);
             this.tbBoletosNiñoEst.Name = "tbBoletosNiñoEst";
             this.tbBoletosNiñoEst.Size = new System.Drawing.Size(36, 24);
             this.tbBoletosNiñoEst.TabIndex = 19;
@@ -266,7 +266,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(39, 2);
+            this.label4.Location = new System.Drawing.Point(5, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(170, 24);
             this.label4.TabIndex = 18;
@@ -280,7 +280,7 @@
             this.btnBoletosMas.Font = new System.Drawing.Font("Broadway", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBoletosMas.ForeColor = System.Drawing.Color.Black;
             this.btnBoletosMas.Image = ((System.Drawing.Image)(resources.GetObject("btnBoletosMas.Image")));
-            this.btnBoletosMas.Location = new System.Drawing.Point(172, 46);
+            this.btnBoletosMas.Location = new System.Drawing.Point(138, 46);
             this.btnBoletosMas.Name = "btnBoletosMas";
             this.btnBoletosMas.Size = new System.Drawing.Size(30, 30);
             this.btnBoletosMas.TabIndex = 18;
@@ -295,7 +295,7 @@
             this.btnBoletoMenos.Font = new System.Drawing.Font("Broadway", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBoletoMenos.ForeColor = System.Drawing.Color.Black;
             this.btnBoletoMenos.Image = ((System.Drawing.Image)(resources.GetObject("btnBoletoMenos.Image")));
-            this.btnBoletoMenos.Location = new System.Drawing.Point(35, 46);
+            this.btnBoletoMenos.Location = new System.Drawing.Point(1, 46);
             this.btnBoletoMenos.Name = "btnBoletoMenos";
             this.btnBoletoMenos.Size = new System.Drawing.Size(30, 30);
             this.btnBoletoMenos.TabIndex = 0;
@@ -310,9 +310,9 @@
             this.panel3.Controls.Add(this.btnBoletoMasA);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.btnBoletoMenosA);
-            this.panel3.Location = new System.Drawing.Point(307, 196);
+            this.panel3.Location = new System.Drawing.Point(235, 146);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(235, 135);
+            this.panel3.Size = new System.Drawing.Size(180, 135);
             this.panel3.TabIndex = 20;
             // 
             // tbBoletoAdulto
@@ -321,7 +321,7 @@
             this.tbBoletoAdulto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbBoletoAdulto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbBoletoAdulto.ForeColor = System.Drawing.Color.White;
-            this.tbBoletoAdulto.Location = new System.Drawing.Point(93, 106);
+            this.tbBoletoAdulto.Location = new System.Drawing.Point(70, 106);
             this.tbBoletoAdulto.Name = "tbBoletoAdulto";
             this.tbBoletoAdulto.Size = new System.Drawing.Size(36, 24);
             this.tbBoletoAdulto.TabIndex = 20;
@@ -333,7 +333,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(74, 0);
+            this.label7.Location = new System.Drawing.Point(51, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(79, 23);
             this.label7.TabIndex = 18;
@@ -346,7 +346,7 @@
             this.btnBoletoMasA.Font = new System.Drawing.Font("Broadway", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBoletoMasA.ForeColor = System.Drawing.Color.Black;
             this.btnBoletoMasA.Image = ((System.Drawing.Image)(resources.GetObject("btnBoletoMasA.Image")));
-            this.btnBoletoMasA.Location = new System.Drawing.Point(169, 46);
+            this.btnBoletoMasA.Location = new System.Drawing.Point(146, 46);
             this.btnBoletoMasA.Name = "btnBoletoMasA";
             this.btnBoletoMasA.Size = new System.Drawing.Size(30, 30);
             this.btnBoletoMasA.TabIndex = 18;
@@ -358,7 +358,7 @@
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(65, 25);
+            this.pictureBox3.Location = new System.Drawing.Point(42, 25);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(92, 78);
             this.pictureBox3.TabIndex = 18;
@@ -371,7 +371,7 @@
             this.btnBoletoMenosA.Font = new System.Drawing.Font("Broadway", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBoletoMenosA.ForeColor = System.Drawing.Color.Black;
             this.btnBoletoMenosA.Image = ((System.Drawing.Image)(resources.GetObject("btnBoletoMenosA.Image")));
-            this.btnBoletoMenosA.Location = new System.Drawing.Point(24, 46);
+            this.btnBoletoMenosA.Location = new System.Drawing.Point(1, 46);
             this.btnBoletoMenosA.Name = "btnBoletoMenosA";
             this.btnBoletoMenosA.Size = new System.Drawing.Size(30, 30);
             this.btnBoletoMenosA.TabIndex = 0;
@@ -384,7 +384,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(52, 0);
+            this.label6.Location = new System.Drawing.Point(28, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(133, 23);
             this.label6.TabIndex = 18;
@@ -397,9 +397,9 @@
             this.panel4.Controls.Add(this.button48);
             this.panel4.Controls.Add(this.pictureBox4);
             this.panel4.Controls.Add(this.btnBoletoMenosTE);
-            this.panel4.Location = new System.Drawing.Point(585, 196);
+            this.panel4.Location = new System.Drawing.Point(428, 146);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(235, 135);
+            this.panel4.Size = new System.Drawing.Size(184, 135);
             this.panel4.TabIndex = 19;
             // 
             // tbBoleto3Edad
@@ -408,7 +408,7 @@
             this.tbBoleto3Edad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbBoleto3Edad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbBoleto3Edad.ForeColor = System.Drawing.Color.White;
-            this.tbBoleto3Edad.Location = new System.Drawing.Point(98, 106);
+            this.tbBoleto3Edad.Location = new System.Drawing.Point(74, 106);
             this.tbBoleto3Edad.Name = "tbBoleto3Edad";
             this.tbBoleto3Edad.Size = new System.Drawing.Size(36, 24);
             this.tbBoleto3Edad.TabIndex = 20;
@@ -422,7 +422,7 @@
             this.button48.Font = new System.Drawing.Font("Broadway", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button48.ForeColor = System.Drawing.Color.Black;
             this.button48.Image = ((System.Drawing.Image)(resources.GetObject("button48.Image")));
-            this.button48.Location = new System.Drawing.Point(172, 46);
+            this.button48.Location = new System.Drawing.Point(148, 46);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(30, 30);
             this.button48.TabIndex = 18;
@@ -434,7 +434,7 @@
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(75, 25);
+            this.pictureBox4.Location = new System.Drawing.Point(51, 25);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(80, 78);
             this.pictureBox4.TabIndex = 18;
@@ -447,7 +447,7 @@
             this.btnBoletoMenosTE.Font = new System.Drawing.Font("Broadway", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBoletoMenosTE.ForeColor = System.Drawing.Color.Black;
             this.btnBoletoMenosTE.Image = ((System.Drawing.Image)(resources.GetObject("btnBoletoMenosTE.Image")));
-            this.btnBoletoMenosTE.Location = new System.Drawing.Point(27, 46);
+            this.btnBoletoMenosTE.Location = new System.Drawing.Point(3, 46);
             this.btnBoletoMenosTE.Name = "btnBoletoMenosTE";
             this.btnBoletoMenosTE.Size = new System.Drawing.Size(30, 30);
             this.btnBoletoMenosTE.TabIndex = 0;
@@ -468,9 +468,9 @@
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.tbCambio);
             this.panel2.Controls.Add(this.panelQR);
-            this.panel2.Location = new System.Drawing.Point(24, 607);
+            this.panel2.Location = new System.Drawing.Point(49, 482);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(563, 254);
+            this.panel2.Size = new System.Drawing.Size(563, 243);
             this.panel2.TabIndex = 21;
             // 
             // btnHabAsientos
@@ -479,9 +479,9 @@
             this.btnHabAsientos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHabAsientos.BackgroundImage")));
             this.btnHabAsientos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHabAsientos.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHabAsientos.Location = new System.Drawing.Point(370, 194);
+            this.btnHabAsientos.Location = new System.Drawing.Point(355, 194);
             this.btnHabAsientos.Name = "btnHabAsientos";
-            this.btnHabAsientos.Size = new System.Drawing.Size(50, 50);
+            this.btnHabAsientos.Size = new System.Drawing.Size(40, 40);
             this.btnHabAsientos.TabIndex = 51;
             this.btnHabAsientos.UseVisualStyleBackColor = false;
             this.btnHabAsientos.Click += new System.EventHandler(this.btnHabAsientos_Click);
@@ -491,9 +491,9 @@
             this.btnPagar.BackColor = System.Drawing.Color.Gold;
             this.btnPagar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPagar.BackgroundImage")));
             this.btnPagar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnPagar.Location = new System.Drawing.Point(465, 194);
+            this.btnPagar.Location = new System.Drawing.Point(401, 194);
             this.btnPagar.Name = "btnPagar";
-            this.btnPagar.Size = new System.Drawing.Size(50, 50);
+            this.btnPagar.Size = new System.Drawing.Size(40, 40);
             this.btnPagar.TabIndex = 75;
             this.btnPagar.UseVisualStyleBackColor = false;
             this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
@@ -504,7 +504,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(22, 40);
+            this.label10.Location = new System.Drawing.Point(22, 6);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(161, 25);
             this.label10.TabIndex = 73;
@@ -515,7 +515,7 @@
             this.tbCantBoletos.BackColor = System.Drawing.Color.Black;
             this.tbCantBoletos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCantBoletos.ForeColor = System.Drawing.Color.Lime;
-            this.tbCantBoletos.Location = new System.Drawing.Point(193, 34);
+            this.tbCantBoletos.Location = new System.Drawing.Point(193, 0);
             this.tbCantBoletos.Name = "tbCantBoletos";
             this.tbCantBoletos.ReadOnly = true;
             this.tbCantBoletos.Size = new System.Drawing.Size(122, 31);
@@ -529,7 +529,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(24, 144);
+            this.label8.Location = new System.Drawing.Point(24, 110);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 25);
             this.label8.TabIndex = 71;
@@ -540,7 +540,7 @@
             this.tbEfectivo.BackColor = System.Drawing.Color.Black;
             this.tbEfectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbEfectivo.ForeColor = System.Drawing.Color.Lime;
-            this.tbEfectivo.Location = new System.Drawing.Point(163, 144);
+            this.tbEfectivo.Location = new System.Drawing.Point(163, 110);
             this.tbEfectivo.Name = "tbEfectivo";
             this.tbEfectivo.ReadOnly = true;
             this.tbEfectivo.Size = new System.Drawing.Size(152, 31);
@@ -554,7 +554,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(26, 92);
+            this.label5.Location = new System.Drawing.Point(26, 58);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 25);
             this.label5.TabIndex = 67;
@@ -565,7 +565,7 @@
             this.tbTotal.BackColor = System.Drawing.Color.Black;
             this.tbTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTotal.ForeColor = System.Drawing.Color.Lime;
-            this.tbTotal.Location = new System.Drawing.Point(163, 92);
+            this.tbTotal.Location = new System.Drawing.Point(163, 58);
             this.tbTotal.Name = "tbTotal";
             this.tbTotal.ReadOnly = true;
             this.tbTotal.Size = new System.Drawing.Size(152, 31);
@@ -579,7 +579,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(26, 200);
+            this.label9.Location = new System.Drawing.Point(26, 166);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(98, 25);
             this.label9.TabIndex = 69;
@@ -590,7 +590,7 @@
             this.tbCambio.BackColor = System.Drawing.Color.Black;
             this.tbCambio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCambio.ForeColor = System.Drawing.Color.Lime;
-            this.tbCambio.Location = new System.Drawing.Point(163, 194);
+            this.tbCambio.Location = new System.Drawing.Point(163, 160);
             this.tbCambio.Name = "tbCambio";
             this.tbCambio.ReadOnly = true;
             this.tbCambio.Size = new System.Drawing.Size(152, 31);
@@ -610,11 +610,11 @@
             this.TipoBoleto,
             this.Asiento});
             this.dgvBoletos.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dgvBoletos.Location = new System.Drawing.Point(24, 338);
+            this.dgvBoletos.Location = new System.Drawing.Point(49, 287);
             this.dgvBoletos.Name = "dgvBoletos";
             this.dgvBoletos.ReadOnly = true;
             this.dgvBoletos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.dgvBoletos.Size = new System.Drawing.Size(796, 258);
+            this.dgvBoletos.Size = new System.Drawing.Size(563, 189);
             this.dgvBoletos.TabIndex = 22;
             // 
             // Orígen
@@ -698,7 +698,7 @@
             this.panelAsientosBus.Controls.Add(this.button94);
             this.panelAsientosBus.Controls.Add(this.pictureBox2);
             this.panelAsientosBus.Enabled = false;
-            this.panelAsientosBus.Location = new System.Drawing.Point(849, 10);
+            this.panelAsientosBus.Location = new System.Drawing.Point(868, -3);
             this.panelAsientosBus.Name = "panelAsientosBus";
             this.panelAsientosBus.Size = new System.Drawing.Size(274, 728);
             this.panelAsientosBus.TabIndex = 47;
@@ -1292,7 +1292,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Gold;
-            this.label11.Location = new System.Drawing.Point(23, 107);
+            this.label11.Location = new System.Drawing.Point(44, 65);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(72, 25);
             this.label11.TabIndex = 49;
@@ -1300,10 +1300,10 @@
             // 
             // tbFecha
             // 
-            this.tbFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbFecha.Location = new System.Drawing.Point(28, 137);
+            this.tbFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbFecha.Location = new System.Drawing.Point(49, 95);
             this.tbFecha.Name = "tbFecha";
-            this.tbFecha.Size = new System.Drawing.Size(98, 31);
+            this.tbFecha.Size = new System.Drawing.Size(256, 26);
             this.tbFecha.TabIndex = 50;
             // 
             // btnIntercCy
@@ -1314,9 +1314,9 @@
             this.btnIntercCy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnIntercCy.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIntercCy.ForeColor = System.Drawing.Color.Transparent;
-            this.btnIntercCy.Location = new System.Drawing.Point(400, 59);
+            this.btnIntercCy.Location = new System.Drawing.Point(315, 30);
             this.btnIntercCy.Name = "btnIntercCy";
-            this.btnIntercCy.Size = new System.Drawing.Size(41, 34);
+            this.btnIntercCy.Size = new System.Drawing.Size(31, 28);
             this.btnIntercCy.TabIndex = 13;
             this.btnIntercCy.UseVisualStyleBackColor = false;
             this.btnIntercCy.Click += new System.EventHandler(this.btnIntercCy_Click);
@@ -1326,9 +1326,9 @@
             this.videoSourcePlayer1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.videoSourcePlayer1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("videoSourcePlayer1.BackgroundImage")));
             this.videoSourcePlayer1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.videoSourcePlayer1.Location = new System.Drawing.Point(593, 634);
+            this.videoSourcePlayer1.Location = new System.Drawing.Point(618, 509);
             this.videoSourcePlayer1.Name = "videoSourcePlayer1";
-            this.videoSourcePlayer1.Size = new System.Drawing.Size(227, 227);
+            this.videoSourcePlayer1.Size = new System.Drawing.Size(227, 216);
             this.videoSourcePlayer1.TabIndex = 4;
             this.videoSourcePlayer1.Text = "videoSourcePlayer1";
             this.videoSourcePlayer1.VideoSource = null;
@@ -1340,7 +1340,7 @@
             this.btnDescargarQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDescargarQR.Enabled = false;
             this.btnDescargarQR.ForeColor = System.Drawing.Color.Transparent;
-            this.btnDescargarQR.Location = new System.Drawing.Point(1054, 741);
+            this.btnDescargarQR.Location = new System.Drawing.Point(767, 437);
             this.btnDescargarQR.Name = "btnDescargarQR";
             this.btnDescargarQR.Size = new System.Drawing.Size(35, 35);
             this.btnDescargarQR.TabIndex = 76;
@@ -1351,7 +1351,7 @@
             this.btnCorreoQR.BackColor = System.Drawing.SystemColors.Control;
             this.btnCorreoQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCorreoQR.Enabled = false;
-            this.btnCorreoQR.Location = new System.Drawing.Point(1092, 741);
+            this.btnCorreoQR.Location = new System.Drawing.Point(805, 437);
             this.btnCorreoQR.Name = "btnCorreoQR";
             this.btnCorreoQR.Size = new System.Drawing.Size(35, 35);
             this.btnCorreoQR.TabIndex = 77;
@@ -1359,10 +1359,10 @@
             // 
             // Venta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(1154, 874);
+            this.ClientSize = new System.Drawing.Size(1154, 722);
             this.Controls.Add(this.btnCorreoQR);
             this.Controls.Add(this.tbFecha);
             this.Controls.Add(this.btnDescargarQR);
